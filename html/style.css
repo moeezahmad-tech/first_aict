@@ -67,6 +67,7 @@ header {
   height: 80vh;
   padding: 30px;
 
+  
   div {
     width: 50%;
   }
@@ -98,7 +99,6 @@ header {
       letter-spacing: 1px;
       line-height: 1.4;
       text-align: justify;
-
     }
     a {
       background-color: #099364;
@@ -168,6 +168,16 @@ article {
     font-size: xx-large;
   }
 
+  ul {
+    list-style: inside disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
   p {
     text-align: justify;
   }
@@ -190,10 +200,12 @@ article {
     gap: 10px;
     border-radius: 10px;
     margin-top: 30px;
+    height: 300px;
 
-    h3{
-        color: #099364;
-        }
+
+    h3 {
+      color: #099364;
+    }
 
     button {
       background-color: #099364;
@@ -207,21 +219,21 @@ article {
     p {
       line-height: 1.4;
       font-size: small;
+      text-align: justify;
     }
   }
 }
 
+footer {
+  background-color: #099364;
+  color: white;
+  text-align: center;
 
-footer{
-    background-color: #099364;
-    color: white;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 
-display: flex;
-justify-content: center;
-padding: 30px;
-
-    p{
-        width: 1000px;
-    }
+  p {
+    width: 1000px;
+  }
 }

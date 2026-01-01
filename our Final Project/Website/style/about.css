@@ -3,13 +3,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.424);
-  
+  background-color: white;
 
   div {
-  background-color: rgba(255, 255, 255, 0.424);
+    background-color: white;
     width: 45vw;
-    height: 85vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +16,7 @@
 
     h2 {
       padding: 0 20px;
-      font-size: 90px;
+      font-size: 6vmax;
       align-self: start;
       text-align: left;
       color: black;
@@ -49,7 +48,8 @@
     }
 
     img {
-      width: 80%;
+      width: 100%;
+      max-width: 600px;
       height: auto;
       object-fit: cover;
       margin-top: 20px;
@@ -64,15 +64,21 @@
       h1 {
         font-size: 70px;
       }
+      img{
+        width: 100% !important;
+      }
     }
   }
 
   @media screen and (max-width: 1000px) {
-    height: 90vh;
     display: flex;
-    flex-direction: column-reverse;
-
+    flex-direction: column;
+    justify-content: center;
+    
     div {
+      width: 100%;
+      min-height: auto;
+      padding: 5vw 0px;
       h2 {
         font-size: 50px;
       }
@@ -87,6 +93,7 @@
     display: flex;
     flex-wrap: wrap-reverse;
     gap: 50px;
+    height: auto !important;
 
     div {
       width: 90vw;

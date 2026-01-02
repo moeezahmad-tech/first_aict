@@ -4,7 +4,8 @@ header {
   justify-content: center;
   text-align: center;
   /* padding: 50px; */
-  background-color: rgba(255, 255, 255, 0.424);
+  background-color: rgba(255, 255, 255, 0.627);
+  
 
   div {
     width: 45vw;
@@ -16,7 +17,7 @@ header {
 
     h1 {
       padding: 0 20px;
-      font-size: 70px;
+      font-size:  4vmax;
       text-align: left;
     }
 
